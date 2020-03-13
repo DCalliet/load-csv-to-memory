@@ -1,0 +1,11 @@
+{
+  "name": "transactions",
+  "version": "1.0.0",
+  "description": "Flexbile api for loading multiple csv bank statement transactions into memory",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Darius Calliet <calliet.d@gmail.com>",
+  "license": "ISC"
+}
