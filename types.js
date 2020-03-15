@@ -27,10 +27,7 @@ class Upload {
 // @params [String] folder transactions are stored in.
 // @params [List<Account>] accounts a list of account objects, which specify either a fileName or folderName.
 class Uploader {
-  constructor({
-    prefix,
-    accounts
-  }) {
+  constructor(prefix, accounts) {
     this.resourcePath = prefix;
     if (this.resourcePath == undefined) {
       throw new Error('must provide uploader with a resource path string!')
