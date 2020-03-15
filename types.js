@@ -4,8 +4,6 @@ const path = require('path');
 const Papa = require('papaparse');
 const moment = require('moment-timezone');
 
-const SECRET = 'super-secret-value';
-
 // Extract a CSVs Data from PapaParse as json
 // @params [String] filename path to upload file.
 class Upload {
